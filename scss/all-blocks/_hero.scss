@@ -1,0 +1,40 @@
+.corusel-box{
+   width: 500px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+.hero__big-box{
+   margin-top: 400px !important;
+}
+
+.date{
+   display: flex;
+}
+
+.date::before{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   margin-right: 5px;   
+   background-image: url("https://via.placeholder.com/15");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+
+.star{
+   display: flex;
+}
+
+.star::before{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   margin-right: 5px;   
+   background-image: url("https://via.placeholder.com/15");
+   background-repeat: no-repeat;
+   background-size: contain;
+   content: "";
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "films",
+  "version": "14.5.33",
+  "description": "super project",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluke006/homework-lesson4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fluke006/homework-lesson4/issues"
+  },
+  "homepage": "https://github.com/fluke006/homework-lesson4#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
