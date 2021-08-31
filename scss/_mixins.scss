@@ -1,0 +1,29 @@
+@mixin reset-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+@mixin text-ellipses {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+@mixin media-max($size: 1440px) {
+	@media only screen and (max-width: $size) {
+		@content;
+	}
+}
+
+@mixin media-min($size: 144px) {
+	@media only screen and (min-width: $size) {
+		@content;
+	}
+}
+			
+@mixin media-min-max($min-size: 320px, $max-size: 1440px) {
+	@media only screen and (min-width: $min-size) and (max-width: $max-size) {
+		@content;
+	}
+}

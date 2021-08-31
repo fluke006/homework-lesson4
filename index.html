@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <link rel="stylesheet" href="./css/main.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <main class="main">
+      <section class="hero">
+         <div class="container py-4">
+
+            <h1 class="h1 text-center text-secondary mb-5 ">Movies catalog</h1>
+
+            <div class="hero__box d-flex">
+
+               <div class="hero__left-box col-3">
+                  <form class="form" action="#">
+
+                     <div class="left-box__form  mb-3">
+                        <input class="form-control" type="text" placeholder="ave">
+                     </div>
+
+                     <div class="left-box__form mb-3">
+                        <input class="form-control" type="number" placeholder="5">
+                     </div>
+
+                     <div class="form__select mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                           <option selected>All</option>
+                           <option value="1">One</option>
+                           <option value="2">Two</option>
+                           <option value="3">Three</option>
+                        </select>
+                     </div>
+
+                     <div class="form__select mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                           <option selected>Rating (hight to long) </option>
+                           <option value="1">reting</option>
+                           <option value="2">hight</option>
+                           <option value="3">long</option>
+                        </select>
+                     </div>
+
+                     <button class="btn btn btn-primary w-100 text-center mb-4 py-2 px-2 d-block"
+                        type="button">Search</button>
+                  </form>
+
+                  <h2 class="h2 text-secondary mb-3">Bookmarked movies</h2>
+
+                  <div class="border col p-3">
+                     <strong class="d-block mb-2">Avengers: Infinity War</strong>
+
+                     <button class="btn btn-danger d-block w100 ">Remove</button>
+                  </div>
+
+                  <div class="border col p-3">
+                     <strong class="d-block mb-2">The Avengers</strong>
+
+                     <button class="btn btn-danger d-block w100 ">Remove</button>
+                  </div>
+                  <div class="border col p-3">
+                     <strong class="d-block mb-2">12 Years a Slave</strong>
+
+                     <button class="btn btn-danger d-block w100 ">Remove</button>
+                  </div>
+               </div>
+
+
+
+               <div class="hero__right-box ms-5 col-9">
+
+                  <div class="right-box__box mb-4">
+                     <strong class="d-block text-secondary mb-2">Search results: 39</strong>
+
+                     <p class="bg-info  text-secondary  p-3 rounded">
+                        Use the form on the left to search for a movie
+                     </p>
+                  </div>
+
+                  <div class="films-box d-flex">
+                     <div class="col-5 ms-4">
+                        <img class="img mb-4" src="https://via.placeholder.com/400" alt="film-image" width="400"
+                           height="400">
+
+                        <h3 class="h3 mb-2">Avengers: Infinity War</h3>
+
+                        <span class="date d-block p-2 mb-2">2018</span>
+
+                        <span class="star d-block p-2 mb-3">8.7</span>
+
+                        <span class="d-block">
+                           <button class="btn btn btn-outline-primary p-2 text-center" type="button">Watch
+                              trailer</button>
+
+                           <button class="btn btn-outline-primary ms-3 p-2 text-center" type="button"
+                              data-bs-toggle="modal" data-bs-target="#staticBackdrop">More info</button>
+
+                           <button class="btn btn btn-outline-success ms-3 p-2 text-center"
+                              type="button">Bookmark</button>
+                        </span>
+                     </div>
+
+                     <div class="col-5 ms-4">
+                        <img class="img mb-4" src="https://via.placeholder.com/400" alt="film-image" width="400"
+                           height="400">
+
+                        <h3 class="h3 mb-2">Avengers: Infinity War</h3>
+
+                        <span class="date d-block p-2 mb-2">2018</span>
+
+                        <span class="star d-block p-2 mb-3">8.7</span>
+
+                        <span class="d-block">
+                           <button class="btn btn btn-outline-primary p-2 text-center" type="button">Watch
+                              trailer</button>
+
+                           <button class="btn btn-outline-primary ms-3 p-2 text-center" type="button"
+                              data-bs-toggle="modal" data-bs-target="#staticBackdrop">More info</button>
+
+                           <button class="btn btn btn-outline-success ms-3 p-2 text-center"
+                              type="button">Bookmark</button>
+                        </span>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   
+
+
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               ...
+            </div>
+            <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
